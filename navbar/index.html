@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/src/style.css">
+    <title>Shopora</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+
+<body class="bg-pink-300 text-gray-800">
+
+
+    <!-- MAIN NAVBAR -->
+
+    <nav class="bg-black text-white px-8 py-4 shadow-lg">
+
+        <div class="flex items-center justify-between gap-6">
+
+            <!-- Logo -->
+            <div>
+                <img src="/pic.png"
+                    alt="Shopora Logo"
+                    class="w-40">
+            </div>
+
+
+            <!-- Search -->
+            <div
+                class="flex items-center w-[400px] bg-white text-gray-600 rounded-full px-4 py-2">
+
+                <i class="fa-solid fa-magnifying-glass text-pink-500"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search product"
+                    class="ml-3 flex-1 outline-none text-gray-700">
+
+            </div>
+
+
+            <!-- Download -->
+            <div class="flex items-center gap-2 hover:text-pink-400 cursor-pointer">
+
+                <i class="fa-solid fa-mobile-screen-button text-pink-500"></i>
+
+                <h3>Download</h3>
+
+            </div>
+
+
+            <!-- Become Supplier -->
+            <div class="flex items-center gap-2 hover:text-pink-400 cursor-pointer">
+
+                <i class="fa-solid fa-user-plus text-pink-500"></i>
+
+                <h3>Become Supplier</h3>
+
+            </div>
+
+
+            <span class="text-gray-500">|</span>
+
+
+            <!-- Wishlist -->
+            <div class="flex items-center gap-2 hover:text-pink-400 cursor-pointer">
+
+                <i class="fa-regular fa-heart text-pink-500"></i>
+
+                <h3>Wishlist</h3>
+
+            </div>
+
+
+            <!-- Cart -->
+            <div class="flex items-center gap-2 hover:text-pink-400 cursor-pointer">
+
+                <i class="fa-solid fa-cart-shopping text-pink-500"></i>
+
+                <h3>Cart</h3>
+
+            </div>
+
+
+            <!-- Account -->
+            <div class="flex items-center gap-2 hover:text-pink-400 cursor-pointer">
+
+                <i class="fa-regular fa-user text-pink-500"></i>
+
+                <h3>Account</h3>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!--  SECOND NAVBAR -->
+
+    <nav class="bg-white shadow-md px-6 py-3">
+
+        <div class="flex items-center justify-between">
+
+            <a href="#"
+                class="bg-gradient-to-r from-pink-600 to-pink-400 text-white px-6 py-3 rounded-full font-semibold">
+
+                <i class="fa-solid fa-bars mr-2"></i>
+                All Categories
+
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-border-all mr-2 text-pink-500"></i>
+                All
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-person-dress mr-2 text-pink-500"></i>
+                Women
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-sparkles mr-2 text-pink-500"></i>
+                Beauty & Health
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-regular fa-gem mr-2 text-pink-500"></i>
+                Jewellery
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-shirt mr-2 text-pink-500"></i>
+                Fashion
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-shoe-prints mr-2 text-pink-500"></i>
+                Footwear
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-spray-can-sparkles mr-2 text-pink-500"></i>
+                Fragrance
+            </a>
+
+
+            <a href="#" class="hover:text-pink-500">
+                <i class="fa-solid fa-bag-shopping mr-2 text-pink-500"></i>
+                Bags
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- MAIN DASHBOARD AREA-->
+
+    <div class="flex gap-5 p-5">
+
+
+        <!-- SIDEBAR -->
+
+        <aside
+            class="w-64 shrink-0 bg-black text-white rounded-2xl p-5 shadow-xl">
+
+            <!-- Dashboard -->
+            <a href="#"
+                class="flex items-center gap-3 bg-pink-500 px-4 py-3 rounded-xl font-semibold mb-7">
+
+                <i class="fa-solid fa-house"></i>
+
+                Dashboard
+
+            </a>
+
+
+            <!-- Orders -->
+            <p class="text-pink-400 text-xs font-bold mb-3">
+                ORDERS
+            </p>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-solid fa-box text-pink-400"></i>
+
+                Orders & Returns
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-solid fa-share-nodes text-pink-400"></i>
+
+                My Shared Catalogs
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-regular fa-heart text-pink-400"></i>
+
+                My Wishlist
+
+            </a>
+
+
+            <!-- Account -->
+            <p class="text-pink-400 text-xs font-bold mt-6 mb-3">
+                ACCOUNT
+            </p>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-regular fa-user text-pink-400"></i>
+
+                Profile
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-solid fa-location-dot text-pink-400"></i>
+
+                Manage Addresses
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-regular fa-credit-card text-pink-400"></i>
+
+                Payment Methods
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-solid fa-store text-pink-400"></i>
+
+                Store Details
+
+            </a>
+
+
+            <!-- Credits -->
+            <p class="text-pink-400 text-xs font-bold mt-6 mb-3">
+                CREDITS
+            </p>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-solid fa-ticket text-pink-400"></i>
+
+                Coupons
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-regular fa-star text-pink-400"></i>
+
+                Rewards
+
+            </a>
+
+
+            <a href="#"
+                class="flex items-center gap-3 py-3 px-2 hover:bg-gray-800 rounded-lg">
+
+                <i class="fa-solid fa-gift text-pink-400"></i>
+
+                Gifts
+
+            </a>
+
+
+            <!-- Offer -->
+            <div
+                class="mt-6 bg-gradient-to-r from-pink-600 to-pink-400 rounded-xl p-4 text-center">
+
+                <i class="fa-solid fa-gift text-2xl mb-2"></i>
+
+                <p class="font-semibold">
+                    Exclusive Deals
+                </p>
+
+                <p class="text-xs">
+                    Just for You!
+                </p>
+
+            </div>
+
+        </aside>
+
+
+
+        <!--  CONTENT-->
+
+        <main class="flex-1">
+
+
+            <!-- Heading -->
+            <div class="flex items-center justify-between mb-5">
+
+                <div>
+
+                    <h1 class="text-3xl font-bold text-black">
+                        My Wishlist
+                        <span class="text-pink-500">💖</span>
+                    </h1>
+
+                    <p class="text-gray-500 mt-1">
+                        Your favourite products are waiting for you.
+                    </p>
+
+                </div>
+
+
+                <!-- Search -->
+                <div
+                    class="flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 w-72">
+
+                    <i class="fa-solid fa-magnifying-glass text-pink-500"></i>
+
+                    <input
+                        type="text"
+                        placeholder="Search by product name"
+                        class="ml-3 outline-none w-full">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CARDS-->
+
+            <div class="grid grid-cols-5 gap-4">
+
+
+
+                <!-- CARD 1 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/shoe.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+
+                    <h2 class="font-bold text-lg mt-3">
+                        White Platform Sneakers
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Comfortable everyday sneakers with a stylish design.
+                    </p>
+
+
+                    <div class="mt-3">
+
+                        <div class="text-yellow-400 text-sm">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <span class="text-gray-500 ml-1">
+                                (4.8) 128
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 2 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/serum.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Hyaluronic Acid Serum
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Hydrating serum for soft and glowing skin.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 3 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/neckless.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Crystal Drop Necklace
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Elegant crystal necklace for a beautiful look.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 4 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/perfum.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Elegant Perfume
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        A refreshing fragrance with a soft and lasting scent.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 5 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/shirt.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Embroidered Top
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Beautiful embroidered top with a graceful design.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 6 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/mosturisor.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Luxury Skincare Set
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Complete skincare essentials for a fresh look.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 7 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/facial.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        IO Glow Skincare Set
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Gentle skincare products for healthy-looking skin.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 8 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/bag.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        MIU Inspired Handbag
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Elegant handbag with a cute and stylish design.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 9 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/facewash.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Neutrogena Face Wash
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Refreshing face wash for clean and fresh skin.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- CARD 10 -->
+
+                <div
+                    class="relative bg-white rounded-xl p-3 shadow-md hover:shadow-xl transition duration-300 flex flex-col">
+
+                    <div class="relative">
+
+                        <img src="/bodymist.png"
+                            class="w-full h-44 object-cover rounded-lg">
+
+                        <i
+                            class="fa-solid fa-heart absolute top-2 right-2 bg-white rounded-full p-2 text-pink-500 shadow">
+                        </i>
+
+                    </div>
+
+                    <h2 class="font-bold text-lg mt-3">
+                        Floral Body Mist
+                    </h2>
+
+                    <p class="text-gray-500 text-sm mt-1">
+                        Lovely floral fragrance for a fresh feel.
+                    </p>
+
+                    <div class="text-yellow-400 text-sm mt-3">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="text-gray-500 ml-1">
+                            (4.8) 128
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="mt-auto w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-lg mt-4">
+
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>s
